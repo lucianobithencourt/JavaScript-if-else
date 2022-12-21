@@ -52,7 +52,7 @@ var mediaBi = (((nta1 * p0) + (nta2 * p1) + (nta3 * p2) + (nta4 * p3))) / 4;
 
 // CONDIÇÃO IF-ELSE
 if (mediaBi >= 7 && faltas < 10) {
-    
+
     console.log(`Aprovado com media ${mediaBi.toFixed(2)} e ${faltas} faltas`);
 
 } else if (mediaBi >= 6 && mediaBi < 6.9 && faltas < 10) {
@@ -65,7 +65,7 @@ if (mediaBi >= 7 && faltas < 10) {
 
 
 // CONDIÇÃO TERNARIA
-// var media = (mediaBi>=7)?"aprovado :)":"reprovado :(";
+// var media = (mediaBi>=7)?"aprovado :)":"reprovado :( ";
 
 // console.log(` Você foi ${media}`);
 // console.log(`Com media ${mediaBi.toFixed(2)}`);
